@@ -32,6 +32,5 @@ for _, entry in pairs(a_list) do
     else
         result = result + entry * count_table[entry]
     end
-    -- table.insert(intermediate)
 end
 print(result)
